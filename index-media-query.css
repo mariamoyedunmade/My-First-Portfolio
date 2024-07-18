@@ -1,0 +1,158 @@
+/* X-large devices (large desktop, less than 1400px) */
+ @media (max-width: 1400px){}
+
+ /* Large devices (desktop, less than 1200px) */
+ @media (max-width: 1200px){
+ }
+
+/* Medium decices (tablets, less than 992px) */
+ @media (max-width: 992px){
+    .portfolio {
+    width: 100%;
+    padding: 10px;
+}
+.header{
+    width: 100%;
+    padding: 30px ;
+    background-color: black;
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.home{
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 2cm;
+    padding: 5px;
+    margin-top: 30px;
+}
+.home-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.home-content h6{
+font-size: 40px;
+margin-bottom: 12px;
+}
+.home-content h2{
+font-size: 40px;
+line-height: 1.2;
+}
+
+.home-content h4{
+    font-size: 46px;
+    margin-top: 12px;
+}
+.img-box img{
+    border-radius: 100%;
+    width: 350px;
+    height: 400px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+}
+
+ /* small devices (landscape phones, less than 768px */
+ @media (max-width: 768px){}
+
+/* x-small devices (portrait phones, less than 576px) */
+ @media (max-width: 576px){ 
+    .portfolio {
+    width: 100%;
+    padding: 10px;
+}
+.header{
+    width: 100%;
+    padding: 5px;
+    background-color: black;
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: start;
+    gap: 15px;
+    z-index: 100;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.home{
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 2cm;
+    padding: 5px;
+    margin-top: 30px;
+}
+.home-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.home-content h6{
+font-size: 24px;
+margin-bottom: 12px;
+}
+.home-content h2{
+font-size: 24px;
+line-height: 1.2;
+}
+.home-content h4{
+    font-size: 26px;
+    margin-top: 12px;
+}
+.img-box img{
+    border-radius: 100%;
+    width: 350px;
+    height: 400px;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 2cm;
+    }
+.about-content p{
+        font-size: 24px;
+        margin: 5px;
+        padding-top: 10px;
+        text-align: center;
+    }
+
+
+    .technical-skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 100px;
+    gap: 10px;
+    margin-bottom: 80px;
+} 
+.skills li {
+    width: 80%;
+}
+
+ } 
+
+ 
+
+ 
+
+ 
