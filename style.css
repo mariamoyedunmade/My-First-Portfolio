@@ -250,6 +250,16 @@ line-height: 1.2;
         margin: 1rem 0;
         resize: none;
     } 
+    .contact-form .btn-1{
+        padding: 8px;
+        border-radius: 5px;
+        background-color: palevioletred;
+        font-weight: 700;
+    }
+    .btn-1:hover{
+        background-color: black;
+        color: white;
+    }
     
     /* footer */
     .footer{
